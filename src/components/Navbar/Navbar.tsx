@@ -1,12 +1,11 @@
-import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 
 
 const navigation = [
-  { name: 'Nossa Equipe', href: '#listOfDoctors', current: false },
-  { name: 'Sobre a Clínica', href: '#aboutTheClinic', current: false },
-  { name: 'Exames', href: '#exams', current: false }, 
+  { name: 'Sobre Mim', href: '#aboutMe', current: false },
+  { name: 'Especializações', href: '#aboutTheClinic', current: false },
   { name: 'Agende uma Consulta', href: '#contact', current: true },
 ]
 
@@ -16,12 +15,12 @@ function classNames(...classes: string[]) {
 
 export function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-blue-100">
+    <Disclosure as="nav" className="bg-roseTea">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
             {/* Mobile menu button*/}
-            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-900 hover:bg-blue-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-slate-100 hover:bg-salmonLight hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
               <span className="absolute -inset-0.5" />
               <span className="sr-only">Abrir Menu</span>
               <Bars3Icon aria-hidden="true" className="block h-6 w-6 group-data-[open]:hidden" />
@@ -44,7 +43,7 @@ export function Navbar() {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'bg-primary text-white' : 'text-gray-900 hover:bg-primary hover:text-white',
+                      item.current ? 'bg-salmonLight text-white' : 'text-gray-900 hover:bg-salmonLight hover:text-white',
                       'rounded-md px-3 py-2 text-sm font-medium',
                     )}
                   >
@@ -68,7 +67,7 @@ export function Navbar() {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-primary text-white' : 'text-gray-900 hover:bg-primary hover:text-white',
+                item.current ? 'bg-salmonLight text-white' : 'text-gray-900 hover:bg-salmonLight hover:text-white',
                 'block rounded-md px-3 py-2 text-base font-medium',
               )}
             >
