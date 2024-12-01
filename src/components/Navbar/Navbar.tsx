@@ -1,5 +1,6 @@
 import { Disclosure, DisclosureButton, DisclosurePanel} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import logo from '../../../public/imgs/logo-semiramis.png'
 
 
 
@@ -31,8 +32,8 @@ export function Navbar() {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="Your Company"
-                src={''}
-                className="h-8 w-auto rounded-full"
+                src={logo}
+                className="scale-250 h-8 w-auto rounded-full"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
