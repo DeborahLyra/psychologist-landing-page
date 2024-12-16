@@ -6,10 +6,7 @@ export function Banner() {
         <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[550px] bg-gradient-to-r from-salmonLight to-lightBeige p-6 md:p-10 shadow-xl relative">
             <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Semíramis Prado</h1>
-                <h3 className="text-2xl md:text-3xl text-gray-600 mb-6">CRP 5061</h3>
-                <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Psicóloga com vasta experiência...
-                </p>
+                <h3 className="text-2xl md:text-3xl text-gray-600 mb-6">Psicóloga - CRP 02/5061</h3>
             </div>
             <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
                 <div className="relative">
