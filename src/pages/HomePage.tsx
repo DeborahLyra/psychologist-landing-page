@@ -1,5 +1,6 @@
 import { AboutMe } from "../components/aboutMe/AboutMe";
 import { Banner } from "../components/Banner/Banner";
+import { Books } from "../components/books/Books";
 import { Navbar } from "../components/Navbar/Navbar";
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
       <Navbar/>
       <Banner/>
       <AboutMe/>
+      <Books/>
     </div>
   )
 }
