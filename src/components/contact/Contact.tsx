@@ -9,7 +9,7 @@ export function Contact() {
                     Descubra as contribuições literárias da psicóloga Semíramis Prado, que abordam temas essenciais na área da saúde sexual.
                 </p>
             </section>
-            <section className='flex items-center justify-around'>
+            <section className='flex flex-col items-center justify-around bg-roseTea p-4 rounded-lg md:flex-row lg:flex-row'>
                 <div>
                     numeros
                 </div>
