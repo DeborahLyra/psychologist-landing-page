@@ -5,7 +5,7 @@ import { Navbar } from "../components/Navbar/Navbar";
 
 export function HomePage() {
   return (
-    <div className="bg-offWhite h-screen">
+    <div className="h-screen">
       <Navbar/>
       <Banner/>
       <AboutMe/>

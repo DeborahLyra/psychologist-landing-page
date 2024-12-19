@@ -2,19 +2,19 @@ import book1 from '../../../public/imgs/book1Cover.jpeg'
 
 export function Books() {
     return (
-        <div className="p-8 rounded-lg w-full bg-roseTea">
+        <div className="p-8 rounded-lg w-full bg-offWhite">
             <section className="mb-6">
                 <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Livros</h2>
-                <p className="text-lgl mb-4 text-center sm:text-left">
+                <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
                     Descubra as contribuições literárias da psicóloga Semíramis Prado, que abordam temas essenciais na área da saúde sexual.
                 </p>
             </section>
-            <section className="mb-6 flex flex-col items-center justify-center gap-4 md:flex-row lg:flex-row ">
+            <section className="bg-roseTea p-4 rounded-xl mb-6 flex flex-col items-center justify-center gap-4 md:flex-row lg:flex-row ">
                 <div>
-                    <h4 className="font-semibold text-xl mb-2">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-700">
                         Tratado Brasileiro de Medicina e Saúde Sexual
                     </h4>
-                    <p className="mt-4 text-md">
+                    <p className="mt-4 text-md text-gray-900">
                         Uma obra abrangente que reúne conhecimentos atualizados e práticas essenciais sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
                     </p>
                 </div>
@@ -31,12 +31,12 @@ export function Books() {
                 </a>
 
             </section>
-            <section className="mb-6 flex flex-col items-center justify-center gap-4 md:flex-row lg:flex-row-reverse ">
+            <section className="bg-roseTea p-4 rounded-xl mb-6 flex flex-col items-center justify-center gap-4 md:flex-row lg:flex-row-reverse ">
                 <div>
-                    <h4 className="font-semibold text-xl mb-2">
+                    <h4 className="font-semibold text-xl mb-2 text-gray-700">
                         Técnicas e Tratamento da Ejaculação Precoce
                     </h4>
-                    <p className="mt-4 text-md">
+                    <p className="mt-4 text-md text-gray-900">
                         Uma obra abrangente que reúne conhecimentos atualizados e práticas essenciais sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
                     </p>
                 </div>

@@ -1,12 +1,12 @@
 export function AboutMe() {
     return (
-        <div className="p-8 w-full bg-gray-50">
+        <div className="p-8 w-full bg-offWhite">
             <section className="mb-6">
                 <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Sobre Mim</h2>
             </section>
 
             <div className="flex flex-col sm:flex-row items-center sm:items-start sm:justify-around">
-                {/* Primeiro bloco */}
+               
                 <section className="max-w-full sm:max-w-96 mb-6 sm:mb-0 px-4">
                     <article className="mb-6">
                         <h4 className="font-semibold text-lg text-gray-700">Graduação</h4>
