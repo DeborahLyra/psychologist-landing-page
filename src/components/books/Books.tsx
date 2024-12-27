@@ -11,7 +11,7 @@ export function Books() {
             </section>
 
             <section className="grid grid-cols-1 gap-8 md:grid-cols-2">
-                <div className="flex flex-col md:flex-row items-center bg-roseTea shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105">
+                <div className="flex flex-col md:flex-row items-center border-roseTea border-4 shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105">
                     <a
                         href="https://www.amazon.com.br/Brasileiro-MEDICINA-Leonardo-GMarquesine-FFakhouri/dp/6586143918"
                         target="_blank"
@@ -34,7 +34,7 @@ export function Books() {
                     </div>
                 </div>
 
-                <div className="flex flex-col md:flex-row-reverse items-center bg-roseTea shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105">
+                <div className="flex flex-col md:flex-row-reverse items-center  border-roseTea border-4 shadow-lg rounded-xl overflow-hidden transform transition duration-300 hover:scale-105">
                     <a
                         href="#"
                         target="_blank"

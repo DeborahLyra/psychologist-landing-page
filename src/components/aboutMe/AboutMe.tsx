@@ -32,7 +32,7 @@ export function AboutMe() {
                     <h3 className="font-semibold text-lg text-gray-700">Atuação</h3>
                     <article>
                         <ul className="list-inside text-gray-600 space-y-2">
-                            <li>Atualmente sou Psicólga ....</li>
+                            <li>Atualmente faço parte da equipe Andros Recife, onde atuo como terapeuta sexual numa abordagem multiprofissional</li>
                             <li>Fui Delegada Estadual da SBRASH em três Gestões</li>
                             <li>Membro da ABEMSS - Associação Brasileira de Estudos em Medicina e Saúde Sexual</li>
                             <li>Atuou como Psicóloga Clínica (crianças, adolescentes e adultos) durante 27 anos no Ambulatório do Hospital João Murilo-Secretaria de Saúde/PE</li>
