@@ -1,61 +1,109 @@
-//import image from '../../../public/imgs/contact-photo.jpeg'
-import { WhatsappLogo, InstagramLogo, FacebookLogo, Phone } from 'phosphor-react';
+import image from '../../../public/imgs/contact-photo.jpeg';
+import { WhatsappLogo, MapPin, Phone } from 'phosphor-react';
 
 const contact = [
     {
-        link: 'https://wa.me/1234567890',
+        link: "https://maps.app.goo.gl/LnjP9yiw3BTfvn137",
+        icon: MapPin,
+        text: 'RioMar Trade Center - Av. República do Líbano, 251 - 206 - Pina, Recife - PE',
+    },
+    {
+        link: 'https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Ricardo%20Lyra%20',
         icon: WhatsappLogo,
-        text:'Entre em contato pelo WhatsApp'
+        text: 'Entre em contato pelo WhatsApp',
     },
     {
-        link: 'https://instagram.com/seuusuario',
-        icon: InstagramLogo,
-        text:'Acesse o Instagram'
-    },
-    {
-        link: 'https://facebook.com/seuusuario',
-        icon: FacebookLogo,
-        text:'Acesse o FaceBook'
-    },
-    {
-        link: 'tel:+1234567890',
+        link: 'https://maps.app.goo.gl/LnjP9yiw3BTfvn137',
         icon: Phone,
-        text:'Entre em contato pelo celular'
+        text: 'Telefone para contato: (81)9.8981-5885',
     },
 ];
 
 export function Contact() {
     return (
-        <div className="p-8 rounded-lg w-full shadow-lg">
-            <section className="mb-6">
-                <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">
-                    Entre em Contato
-                </h2>
-                <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
-                    Conecte-se pelas plataformas abaixo:
-                </p>
-            </section>
-            <section className="flex gap-8 flex-col items-center justify-between p-4 md:flex-row lg:flex-row">
-                {contact.map((item, index) => {
-                    const IconComponent = item.icon;
-                    return (
-                        <div
-                            key={index}
-                            className="flex items-center justify-center p-2 w-36 h-36 rounded-lg bg-salmonLight shadow-md hover:shadow-xl transition-transform transform hover:scale-105"
-                        >
+        <div className="relative w-full p-8 rounded-lg shadow-lg bg-offWhite overflow-hidden">
+            <section className="mb-6 text-center">
+                    <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Agende uma Consulta</h2>
+                    <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
+                    Clínica Andros Recife - Saúde Integral Masculina.
+                    </p>
+                </section>
+
+            <section className="flex flex-col md:flex-row items-center justify-between bg-roseTea/70 p-6 rounded-lg gap-6">
+                <div className="flex flex-col gap-6">
+                    {contact.map((item, index) => {
+                        const IconComponent = item.icon;
+                        return (
                             <a
+                                key={index}
                                 href={item.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex flex-col gap-4 items-center justify-center w-full h-full"
+                                className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-md hover:shadow-lg  transition-transform transform hover:scale-105"
                             >
-                                <IconComponent size={56} color="#fff" />
-                                <p className='text-center text-white font-semibold'>{item.text}</p>
+                                <IconComponent size={36} className="text-roseTea" />
+                                <p className="text-md font-semibold text-gray-700transition-colors">
+                                    {item.text}
+                                </p>
                             </a>
-                        </div>
-                    );
-                })}
+                        );
+                    })}
+                </div>
+                <div className="order-1 md:order-2 flex-shrink-0">
+                    <img
+                        src={image}
+                        alt="Foto de Contato"
+                        className="w-72 h-auto rounded-lg shadow-md object-cover"
+                    />
+                </div>
             </section>
         </div>
     );
 }
+
+
+
+
+{/*   <div className="relative w-full p-8 rounded-lg shadow-lg bg-offWhite overflow-hidden">
+
+            <div className="relative z-10">
+                <section className="mb-6 text-center">
+                    <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Entre em Contato</h2>
+                    <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
+                        Escolha uma plataforma para se conectar.
+                    </p>
+                </section>
+
+                <section className=" grid grid-cols-2 gap-6 md:grid-cols-4 justify-center items-center">
+
+                    {contact.map((item, index) => {
+                        const IconComponent = item.icon;
+                        return (
+                            <div
+                                key={index}
+                                className="flex flex-col items-center justify-center p-4 backdrop-blur-md rounded-lg hover:shadow-xl hover:bg-ligh transition-transform transform hover:scale-105"
+                            >
+                                <a
+                                    href={item.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex flex-col items-center gap-3"
+                                >
+                                    <IconComponent size={48} color="#F8B195" />
+                                    <p className="text-md font-semibold text-roseTea hover:text-salmonLight transition-colors">
+                                        {item.text}
+                                    </p>
+                                </a>
+                            </div>
+                        );
+                    })}
+                </section>
+                <section>
+                    <img 
+                    src={image} 
+                    alt="" 
+                    className='w-56'
+                    />
+                </section>
+            </div>
+        </div> */}

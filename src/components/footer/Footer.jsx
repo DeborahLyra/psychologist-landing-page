@@ -9,13 +9,13 @@ export function Footer() {
                 <div className="text-center md:text-left">
                     <div className="flex justify-center md:justify-start gap-4">
                         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-                            <FacebookLogo size={32} weight="fill" color="#1877F2" />
+                            <FacebookLogo size={32} weight="fill" />
                         </a>
                         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                            <InstagramLogo size={32} weight="fill" color="#E1306C" />
+                            <InstagramLogo size={32} weight="fill"  />
                         </a>
                         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                            <TwitterLogo size={32} weight="fill" color="#1DA1F2" />
+                            <TwitterLogo size={32} weight="fill"  />
                         </a>
                     </div>
                 </div>
