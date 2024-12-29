@@ -1,4 +1,4 @@
-import { FacebookLogo, InstagramLogo, TwitterLogo, Envelope, Phone } from 'phosphor-react';
+import { FacebookLogo, InstagramLogo, TwitterLogo} from 'phosphor-react';
 import logo from '../../../public/imgs/logo-semiramis.png'
 
 export function Footer() {
