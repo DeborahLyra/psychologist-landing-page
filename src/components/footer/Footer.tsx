@@ -1,4 +1,4 @@
-import { FacebookLogo, InstagramLogo, TwitterLogo } from 'phosphor-react';
+import { FacebookLogo, InstagramLogo, WhatsappLogo } from 'phosphor-react';
 
 export function Footer() {
     return (
@@ -11,7 +11,7 @@ export function Footer() {
 
                 <div className="flex justify-center gap-6">
                     <a
-                        href="https://facebook.com"
+                        href="https://www.facebook.com/share/15U8iguUWQ/?mibextid=wwXIfr"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Facebook"
@@ -24,7 +24,7 @@ export function Footer() {
                         />
                     </a>
                     <a
-                        href="https://instagram.com"
+                        href="https://www.instagram.com/semiramispradopsicologa?igsh=MWloMnl0MmFhNXg4Nw=="
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
@@ -37,13 +37,13 @@ export function Footer() {
                         />
                     </a>
                     <a
-                        href="https://twitter.com"
+                        href="https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Semiramis%20Prado%20"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Twitter"
                         className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-gray-100 hover:bg-roseTea transition-all"
                     >
-                        <TwitterLogo
+                        <WhatsappLogo
                             size={30}
                             weight="fill"
                             className="text-roseTea group-hover:text-white transition-colors"
