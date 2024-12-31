@@ -21,7 +21,7 @@ const contact = [
 
 export function Contact() {
     return (
-        <div className="relative w-full p-8 rounded-lg shadow-lg bg-offWhite overflow-hidden">
+        <div className="relative w-full p-8 rounded-lg bg-offWhite overflow-hidden">
             <section className="mb-6 text-center">
                     <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Agende uma Consulta</h2>
                     <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">

@@ -1,4 +1,5 @@
 import book1 from '../../../public/imgs/book1Cover.jpeg';
+import book2 from '../../../public/imgs/book2Cover.jpeg';
 
 export function Books() {
     return (
@@ -42,7 +43,7 @@ export function Books() {
                         className="w-full md:w-1/3"
                     >
                         <img
-                            src={book1}
+                            src={book2}
                             alt="Capa do livro Técnicas e Tratamento da Ejaculação Precoce"
                             className="h-full w-full object-cover"
                         />
