@@ -8,7 +8,7 @@ const contact = [
         text: 'RioMar Trade Center - Av. República do Líbano, 251 - 206 - Pina, Recife - PE',
     },
     {
-        link: 'https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20o%20Dr.%20Ricardo%20Lyra%20',
+        link: "https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Semiramis%20Prado%20",
         icon: WhatsappLogo,
         text: 'Entre em contato pelo WhatsApp',
     },
@@ -64,46 +64,3 @@ export function Contact() {
 
 
 
-{/*   <div className="relative w-full p-8 rounded-lg shadow-lg bg-offWhite overflow-hidden">
-
-            <div className="relative z-10">
-                <section className="mb-6 text-center">
-                    <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Entre em Contato</h2>
-                    <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
-                        Escolha uma plataforma para se conectar.
-                    </p>
-                </section>
-
-                <section className=" grid grid-cols-2 gap-6 md:grid-cols-4 justify-center items-center">
-
-                    {contact.map((item, index) => {
-                        const IconComponent = item.icon;
-                        return (
-                            <div
-                                key={index}
-                                className="flex flex-col items-center justify-center p-4 backdrop-blur-md rounded-lg hover:shadow-xl hover:bg-ligh transition-transform transform hover:scale-105"
-                            >
-                                <a
-                                    href={item.link}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex flex-col items-center gap-3"
-                                >
-                                    <IconComponent size={48} color="#F8B195" />
-                                    <p className="text-md font-semibold text-roseTea hover:text-salmonLight transition-colors">
-                                        {item.text}
-                                    </p>
-                                </a>
-                            </div>
-                        );
-                    })}
-                </section>
-                <section>
-                    <img 
-                    src={image} 
-                    alt="" 
-                    className='w-56'
-                    />
-                </section>
-            </div>
-        </div> */}
