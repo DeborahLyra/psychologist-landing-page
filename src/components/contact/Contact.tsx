@@ -39,7 +39,7 @@ export function Contact() {
                                 href={item.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="flex items-start gap-4 p-4 bg-white rounded-lg shadow-md hover:shadow-lg  transition-transform transform hover:scale-105"
+                                className="flex items-center gap-4 p-4 bg-white rounded-lg shadow-md hover:shadow-lg  transition-transform transform hover:scale-105"
                             >
                                 <IconComponent size={36} className="text-roseTea" />
                                 <p className="text-md font-semibold text-gray-700transition-colors">
