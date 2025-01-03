@@ -19,7 +19,7 @@ export function AboutMe() {
                             <li>Psicologia Clínica</li>
                             <li>Formação em Terapia Sexual pela Sociedade Brasileira de Estudos em Sexualidade (SBRASH)</li>
                             <li>Pós Graduação em Sexualidade Humana pela UNICAP</li>
-                            <li>Curso de Terapia Sexual numa Abordagem Multidisciplinar</li>
+                            <li>Curso de Terapia Sexual numa Abordagem Multidisciplinar, H. Ellis - São Paulo</li>
                             <li>Curso de Terapia Sexual pelo Instituto Paulista de Sexualidade Humana</li>
                             <li>Terapia de Casal numa Abordagem Cognitivo-comportamental (UNICAP)</li>
                         </ul>
@@ -35,7 +35,8 @@ export function AboutMe() {
                             <li>Atualmente faço parte da equipe Andros Recife, onde atuo como terapeuta sexual numa abordagem multiprofissional</li>
                             <li>Fui Delegada Estadual da SBRASH em três Gestões</li>
                             <li>Membro da ABEMSS - Associação Brasileira de Estudos em Medicina e Saúde Sexual</li>
-                            <li>Atuou como Psicóloga Clínica (crianças, adolescentes e adultos) durante 27 anos no Ambulatório do Hospital João Murilo-Secretaria de Saúde/PE</li>
+                            <li>Atuei como Psicóloga Clínica (crianças, adolescentes e adultos) durante 27 anos no Ambulatório do Hospital João Murilo-Secretaria de Saúde/PE</li>
+                            <li>Participei como palestrante em vários eventos, cursos e congressos com a temática referente a sexualidade humana</li>
                         </ul>
                     </article>
                 </section>

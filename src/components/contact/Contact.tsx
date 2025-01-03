@@ -13,7 +13,7 @@ const contact = [
         text: 'Entre em contato pelo WhatsApp',
     },
     {
-        link: 'https://maps.app.goo.gl/LnjP9yiw3BTfvn137',
+        link: 'tel: (81)9.8981-5885',
         icon: Phone,
         text: 'Telefone para contato: (81)9.8981-5885',
     },
