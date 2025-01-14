@@ -1,6 +1,6 @@
 export function AboutMe() {
     return (
-        <div className="p-8 w-full bg-offWhite">
+        <div className="p-8 w-full bg-offWhite" id="aboutMe">
             <section className="mb-6">
                 <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Sobre Mim</h2>
             </section>
@@ -17,7 +17,7 @@ export function AboutMe() {
                         <h4 className="font-semibold text-lg text-gray-700">Especializações</h4>
                         <ul className="list-inside text-gray-600 space-y-2">
                             <li>Psicologia Clínica</li>
-                            <li>Formação em Terapia Sexual pela Sociedade Brasileira de Estudos em Sexualidade (SBRASH)</li>
+                            <li>Formação em Terapia Sexual pela Sociedade Brasileira de Estudos em Sexualidade Humana (SBRASH)</li>
                             <li>Pós Graduação em Sexualidade Humana pela UNICAP</li>
                             <li>Curso de Terapia Sexual numa Abordagem Multidisciplinar, H. Ellis - São Paulo</li>
                             <li>Curso de Terapia Sexual pelo Instituto Paulista de Sexualidade Humana</li>

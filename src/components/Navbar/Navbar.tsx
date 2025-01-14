@@ -6,7 +6,7 @@ import logo from '../../../public/imgs/logo-semiramis.png'
 
 const navigation = [
   { name: 'Sobre Mim', href: '#aboutMe', current: false },
-  { name: 'Especializações', href: '#aboutTheClinic', current: false },
+  { name: 'Livros', href: '#books', current: false },
   { name: 'Agende uma Consulta', href: '#contact', current: true },
 ]
 

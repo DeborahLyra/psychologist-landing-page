@@ -3,7 +3,7 @@ import book2 from '../../../public/imgs/book2Cover.jpeg';
 
 export function Books() {
     return (
-        <div className="p-8 rounded-lg w-full bg-offWhite">
+        <div className="p-8 rounded-lg w-full bg-offWhite" id="books">
             <section className="mb-6 text-center">
                 <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Livros</h2>
                 <p className="text-lgl mb-4 text-center sm:text-left text-gray-600">
@@ -30,7 +30,7 @@ export function Books() {
                             Tratado Brasileiro de Medicina e Saúde Sexual
                         </h4>
                         <p className="text-gray-600 text-sm">
-                            Uma obra abrangente que reúne conhecimentos atualizados e práticas essenciais sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
+                            Uma obra abrangente que reúne conhecimentos atualizados e práticas sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
                         </p>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export function Books() {
                             Técnicas e Tratamento da Ejaculação Precoce
                         </h4>
                         <p className="text-gray-600 text-sm">
-                            Uma obra abrangente que reúne conhecimentos atualizados e práticas essenciais sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
+                            Uma obra abrangente que reúne conhecimentos atualizados e práticas sobre saúde sexual, contribuindo para o desenvolvimento da medicina e psicologia sexual no Brasil.
                         </p>
                     </div>
                 </div>
