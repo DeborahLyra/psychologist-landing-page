@@ -36,7 +36,7 @@ export function AboutMe() {
                             <li>Fui Delegada Estadual da SBRASH em três Gestões</li>
                             <li>Membro da ABEMSS - Associação Brasileira de Estudos em Medicina e Saúde Sexual</li>
                             <li>Atuei como Psicóloga Clínica (crianças, adolescentes e adultos) durante 27 anos no Ambulatório do Hospital João Murilo-Secretaria de Saúde/PE</li>
-                            <li>Participei como palestrante em vários eventos, cursos e congressos com a temática referente a sexualidade humana</li>
+                            <li>Participei como palestrante em vários eventos, cursos e congressos com a temática referente à sexualidade humana</li>
                         </ul>
                     </article>
                 </section>
